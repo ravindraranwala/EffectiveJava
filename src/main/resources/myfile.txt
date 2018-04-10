@@ -1,0 +1,2 @@
+Hi this is a simple text file
+with couple of lines, written for testing purposes.
