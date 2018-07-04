@@ -1,4 +1,4 @@
-package org.effective.java.chapter.one;
+package org.effective.java.chapter.one.item2;
 
 import java.util.EnumSet;
 import java.util.Objects;

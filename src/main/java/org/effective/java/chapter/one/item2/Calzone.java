@@ -1,4 +1,4 @@
-package org.effective.java.chapter.one;
+package org.effective.java.chapter.one.item2;
 
 public class Calzone extends Pizza {
 	private final boolean sauceInside;
