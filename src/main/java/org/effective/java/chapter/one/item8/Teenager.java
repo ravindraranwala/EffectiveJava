@@ -1,4 +1,4 @@
-package org.effective.java.chapter.one;
+package org.effective.java.chapter.one.item8;
 
 public class Teenager {
 	public static void main(String[] args) {
