@@ -24,7 +24,7 @@ public class TryWithResourcesGood {
 			final byte[] buf = new byte[BUFFER_SIZE];
 			int n;
 			while ((n = in.read(buf)) >= 0) {
-				out.write(buf);
+				out.write(buf, 0, n);
 			}
 		}
 	}
