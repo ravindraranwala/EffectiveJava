@@ -28,6 +28,15 @@ public final class PhoneNumber {
 		return pn.lineNum == lineNum && pn.prefix == prefix && pn.areaCode == areaCode;
 	}
 
+	// Typical hashCode method.
+	@Override
+	public int hashCode() {
+		int result = Short.hashCode(areaCode);
+		result = 31 * result + Short.hashCode(prefix);
+		result = 31 * result + Short.hashCode(lineNum);
+		return result;
+	}
+
 	// Remainder omitted.
 
 }
