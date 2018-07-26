@@ -1,4 +1,4 @@
-package org.effective.java.chapter.one.item8;
+package org.effective.java.chapter.two.item8;
 
 public class Adult {
 	public static void main(String[] args) throws Exception {

@@ -1,4 +1,4 @@
-package org.effective.java.chapter.two.item10;
+package org.effective.java.chapter.three.item10;
 
 import java.util.ArrayList;
 import java.util.List;

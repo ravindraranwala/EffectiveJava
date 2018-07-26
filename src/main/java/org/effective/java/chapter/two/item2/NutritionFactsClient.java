@@ -1,7 +1,7 @@
-package org.effective.java.chapter.one.item2;
+package org.effective.java.chapter.two.item2;
 
-import org.effective.java.chapter.one.item2.NyPizza.Size;
-import org.effective.java.chapter.one.item2.Pizza.Topping;
+import org.effective.java.chapter.two.item2.NyPizza.Size;
+import org.effective.java.chapter.two.item2.Pizza.Topping;
 
 public class NutritionFactsClient {
 

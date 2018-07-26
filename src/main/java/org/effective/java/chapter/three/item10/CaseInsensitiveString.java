@@ -1,4 +1,4 @@
-package org.effective.java.chapter.two.item10;
+package org.effective.java.chapter.three.item10;
 
 public final class CaseInsensitiveString {
 	private final String s;

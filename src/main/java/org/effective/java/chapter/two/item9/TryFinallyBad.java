@@ -1,4 +1,4 @@
-package org.effective.java.chapter.one.item9;
+package org.effective.java.chapter.two.item9;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
