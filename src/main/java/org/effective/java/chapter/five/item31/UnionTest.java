@@ -1,4 +1,4 @@
-package org.effective.java.chapter.five.item30;
+package org.effective.java.chapter.five.item31;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,10 +7,10 @@ public class UnionTest {
 
 	public static void main(String[] args) {
 		// Simple program to exercise generic method
-		Set<String> guys = Set.of("Tom", "Dick", "Harry");
-		Set<String> stooges = Set.of("Larry", "Moe", "Curly");
-		Set<String> aflCio = union(guys, stooges);
-		System.out.println(aflCio);
+		Set<Integer> integers = Set.of(1, 3, 5);
+		Set<Double> doubles = Set.of(2.0, 4.0, 6.0);
+		Set<Number> numbers = union(integers, doubles);
+		System.out.println(numbers);
 	}
 
 	// Uses raw types - unacceptable ! (Item 26)
