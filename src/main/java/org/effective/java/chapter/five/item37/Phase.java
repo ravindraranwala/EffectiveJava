@@ -9,11 +9,11 @@ import java.util.stream.Stream;
 // Using a nested enum map to associate data with enum pairs.
 // Adding a new phase using the nested EnumMap implementation.
 public enum Phase {
-	SOLID, LIQUID, GAS;
+	SOLID, LIQUID, GAS, PLASMA;
 
 	public enum Transition {
 		MELT(SOLID, LIQUID), FREEZE(LIQUID, SOLID), BOIL(LIQUID, GAS), CONDENSE(GAS, LIQUID), SUBLIME(SOLID,
-				GAS), DEPOSIT(GAS, SOLID);
+				GAS), DEPOSIT(GAS, SOLID), IONIZE(GAS, PLASMA), DEIONIZE(PLASMA, GAS);
 
 		private final Phase from;
 		private final Phase to;
